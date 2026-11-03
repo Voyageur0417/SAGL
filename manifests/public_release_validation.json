@@ -1,0 +1,38 @@
+{
+  "status": "PASS_REPRESENTATIVE_SOURCE_VALIDATION",
+  "algorithm_commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+  "model_SHA256": "0634e9782792d27ff066e3c20f6c00a93d7bb662c51a4976e39eae2bf36507f9",
+  "model_bytes": 30535806,
+  "core_vendor_config_files_unchanged": true,
+  "existing_inference_wrappers_unchanged": true,
+  "new_model_structure_or_training": false,
+  "parameters": {
+    "lambda": 0.84,
+    "beta": 0.02,
+    "delta": 0.03
+  },
+  "representative_sequence": "v_00HRwkvvjtQ_c001",
+  "fresh_embeddings": 11075,
+  "CPU_and_GPU_unit_tests_each": 18,
+  "CLI_help_count": 7,
+  "real_crop_probe_shape": [
+    1,
+    512
+  ],
+  "prediction_reference_byte_equal": true,
+  "ID_only": true,
+  "single_sequence_local_metrics": {
+    "HOTA": 82.72720358765963,
+    "DetA": 89.18227422195255,
+    "AssA": 76.74759630716366,
+    "IDF1": 89.43671424097356,
+    "MOTA": 97.86271727562965,
+    "IDSW": 16,
+    "FP": 12,
+    "FN": 213
+  },
+  "HOTA_delta_vs_frozen": 0.0,
+  "official_test_recomputed": false,
+  "all_155_fresh_regenerated": false,
+  "prior_four_case_regenerated_embeddings": 42039
+}

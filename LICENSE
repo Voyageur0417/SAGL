@@ -1,5 +1,7 @@
-SAGL project-code release licence: pending rights-holder confirmation.
+SAGL source and model availability notice
 
-The frozen repository did not contain a project-wide LICENSE. This prepared local candidate does not invent a licence grant on behalf of the authors. Obtain the authors' confirmed licence before public redistribution of SAGL-owned code. This file is a status notice, not an open-source licence.
+The repository maintainer has authorised public publication of the SAGL research source and the original Sports-ReID checkpoint. No project-wide open-source software licence or separate model reuse licence has been selected. This notice is not an MIT, Apache-2.0, GPL or other blanket licence grant. Copyright and any applicable rights remain with the respective rights holders; public accessibility alone should not be read as permission for unrestricted reuse or redistribution.
 
-Third-party components retain their own terms: OSNet source is under the MIT licence in vendor/OSNET_MIT_LICENSE.txt; TrackEval is under the MIT licence in vendor/TRACKEVAL_LICENSE.txt. These grants do not establish permission to redistribute trained weights, benchmark imagery or derived benchmark assets. No such assets are bundled.
+Third-party source retains its own granted terms: OSNet is covered by vendor/OSNET_MIT_LICENSE.txt and TrackEval by vendor/TRACKEVAL_LICENSE.txt. These notices remain in full. They do not automatically license benchmark media, ImageNet weights, SAGL extensions or the project-trained checkpoint.
+
+Benchmark media, real crops, GT, carrier outputs and feature caches are not redistributed in this source repository. The original project checkpoint is a separate v1.0.0 Release attachment. Publication authorisation is recorded as a maintainer instruction; no external institution or data-provider clearance is invented by this notice.

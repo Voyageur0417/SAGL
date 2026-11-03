@@ -1,5 +1,5 @@
 {
-  "scope": "GitHub preparation files except this checksum manifest itself; project licence pending",
+  "scope": "all public source files except this manifest; model is a separate Release attachment",
   "files": [
     {
       "file": ".github/workflows/tests.yml",
@@ -13,53 +13,63 @@
     },
     {
       "file": "CITATION.cff",
-      "bytes": 863,
-      "SHA256": "1e46af84341478952f6ca4f1bf8fdb9b8ce4dc02e5d3c211ff9f99c676d06455"
+      "bytes": 954,
+      "SHA256": "4e2ad6643a0f959878df75f074fd93760a15a1c02b242ffcf5005c19d9702caa"
     },
     {
       "file": "CODE_LICENSE_DECISION.md",
-      "bytes": 2612,
-      "SHA256": "e3f6b1620be1132df23b9c7982c2c85cd0081f5380d8f0bbc2ddaa7ae74e5c1d"
+      "bytes": 1518,
+      "SHA256": "ee32e8209afd794c7959b82406dc7e4382db31ae3ebfe40f00d6377c1c16ca1e"
     },
     {
       "file": "LICENSE",
-      "bytes": 703,
-      "SHA256": "93b048078989fbccfdee7c6b130998d42667a928428309f695cdce1e8dfb8e16"
+      "bytes": 1158,
+      "SHA256": "265b65a36035b17dc6d3dd14b3c6516c856c351fd5f529073c3417e9957a9229"
     },
     {
       "file": "LICENSE_AND_ASSET_RELEASE_REVIEW.md",
-      "bytes": 3307,
-      "SHA256": "0003b773a11e0d00fd1af0e36871fab3ca652abd0ead71278cf2776b538e54b7"
+      "bytes": 3303,
+      "SHA256": "1e58b370549a0b51148daf43f72fcf4f4f652a42b465bb0ea75ee4263a667d51"
     },
     {
       "file": "LICENSE_REVIEW.md",
-      "bytes": 129,
-      "SHA256": "734d41d74fa3d28fd12790699f4a99438a5b0ab3d343c4584f673b0809d1e210"
+      "bytes": 188,
+      "SHA256": "ea2f3163c20c37fa53a3294020e23b2d095738349955c080ece1833efcf0f8e3"
     },
     {
       "file": "MODEL_RELEASE_PLAN.md",
-      "bytes": 2121,
-      "SHA256": "425a7097d3f146dbf3230fae0dc0de6b13fc2be500b9b5539e5dde5e8e7494bb"
+      "bytes": 1894,
+      "SHA256": "dd16e09fcb4b306065381ddb7a1e6073acfb41557780eedce507179ab417a2d5"
     },
     {
       "file": "NOTICE",
-      "bytes": 519,
-      "SHA256": "bd7fb43587cb3f8d75bf5c228714327d023a3e04bbf6835252a95007c52b420b"
+      "bytes": 635,
+      "SHA256": "3e8056fa40a06618966df5d15677b4c5f282c11a15093cf3590d8c8218a1a0e0"
     },
     {
       "file": "README.md",
-      "bytes": 11680,
-      "SHA256": "3ff94da126df5ca1b52cb5ac907abe6598d0880ee083e7a841dd23e1c76869d9"
+      "bytes": 12899,
+      "SHA256": "01e4bceffb64ef478476d7b29bd75ad96fad5db2472e1cf44c7991353abbb47e"
+    },
+    {
+      "file": "RELEASE_NOTES.md",
+      "bytes": 3890,
+      "SHA256": "938ee7e78ac25484e2f368fa218b292f2cb5ba8e02e75cf854e62aeb7b0c1b61"
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1858,
-      "SHA256": "b8b34c69245bb149fbc669e9c4ae2df798ce2c025ff7d4ebfa462d1883ae51be"
+      "bytes": 1990,
+      "SHA256": "52947aa664ab9f10c19fb536978cbe8bee4328ffe3dacf17c1d554c4324ad941"
     },
     {
       "file": "checkpoint/CHECKPOINT_INSTRUCTIONS.md",
-      "bytes": 1188,
-      "SHA256": "93e8f78cf0cec98a2592879a1805cf69f33f24ada80f279079b5574887f90f58"
+      "bytes": 1344,
+      "SHA256": "008ec44f8c0c4dadc51fe565a027f881dbbfcfeef381ef2aae0d9cddb5909f1a"
+    },
+    {
+      "file": "checkpoint/SHA256SUMS.txt",
+      "bytes": 116,
+      "SHA256": "80c66cc3cb6fb262046e1bf7d908d5a75f194d0540807f77149eb069ec30be0d"
     },
     {
       "file": "configs/soccernet.yaml",
@@ -88,8 +98,8 @@
     },
     {
       "file": "docs/checkpoint.md",
-      "bytes": 1188,
-      "SHA256": "93e8f78cf0cec98a2592879a1805cf69f33f24ada80f279079b5574887f90f58"
+      "bytes": 1344,
+      "SHA256": "008ec44f8c0c4dadc51fe565a027f881dbbfcfeef381ef2aae0d9cddb5909f1a"
     },
     {
       "file": "docs/data_preparation.md",
@@ -128,18 +138,18 @@
     },
     {
       "file": "docs/known_limitations.md",
-      "bytes": 1980,
-      "SHA256": "82f0e6d0e92137260fdd8aea023525e304a936de20509788f9a3848f5d5095e8"
+      "bytes": 1943,
+      "SHA256": "95d84f0a490ec4099a4235ececdbedc7430cd7a375bfdf3ed5478f6d868b792b"
     },
     {
       "file": "docs/provenance.md",
-      "bytes": 1244,
-      "SHA256": "fd9617724ee35a8ddec091c7d871c779405b663919ec870b97f0cd3a38d1881f"
+      "bytes": 1213,
+      "SHA256": "1c645e532f29fc3d1799c0cd9c083ce4aa5421945c21748e73384e1c2d25ad34"
     },
     {
       "file": "docs/release_scope.md",
-      "bytes": 983,
-      "SHA256": "96070aadaed1ba58d1d4259aa4fa3f31419cea3b68d8f023749bda04b4c49345"
+      "bytes": 1073,
+      "SHA256": "2b97b3073311da71ec73c039bd2d781c2e09edf7c85c155100b04106c9fa420b"
     },
     {
       "file": "docs/reproduction.md",
@@ -178,8 +188,8 @@
     },
     {
       "file": "manifests/checkpoint_manifest.json",
-      "bytes": 1966,
-      "SHA256": "116e0a761eaa865f4dfacccfebe97abc3e8bfeb056eb5bec00a88173fb52af65"
+      "bytes": 2399,
+      "SHA256": "73a725ccc184d332867ad90eda960218b977d5f0b8bec5fd6f67a9b2d864d5e8"
     },
     {
       "file": "manifests/dependency_licences.json",
@@ -203,8 +213,8 @@
     },
     {
       "file": "manifests/github_validation.json",
-      "bytes": 1587,
-      "SHA256": "6d5673a03dc5e21b69d4cc88888705eac280fd0617666d90b379b154b32b79e0"
+      "bytes": 1717,
+      "SHA256": "4110c9c1737e6f7c4410e935e33d926fba2308ae6065f2ee31323630f4f4168b"
     },
     {
       "file": "manifests/license_source_manifest.json",
@@ -213,8 +223,8 @@
     },
     {
       "file": "manifests/model_manifest.json",
-      "bytes": 1804,
-      "SHA256": "04623d593ffd2e6a1493d10f9ceb6e43f23a6a9251490cdc5d9498f925f8fb5b"
+      "bytes": 2237,
+      "SHA256": "11d04c7fc753d6037771ec408a325fdb9011d0b45659637230a9aa0d7e828828"
     },
     {
       "file": "manifests/prediction_manifest.json",
@@ -222,9 +232,14 @@
       "SHA256": "4e93408e4bb11aeab6cc40de6a0af450351ff8cd0b29fdb1498e48200bef11c9"
     },
     {
+      "file": "manifests/public_release_validation.json",
+      "bytes": 1101,
+      "SHA256": "6274170c900acc0d310a5e644316a9128648b7ac8a2aa135deee52bbc8e17398"
+    },
+    {
       "file": "manifests/reproduction_validation.json",
-      "bytes": 6236,
-      "SHA256": "3474fc550d0ab8c94a0a640415596136ab4828d2052b5fca81984f7740682f74"
+      "bytes": 6437,
+      "SHA256": "e856cd3a9a8d4b5085f5a943939a27884c91d07f062512fcf434355827c4fc92"
     },
     {
       "file": "manifests/trackeval_source_manifest.json",
@@ -253,8 +268,13 @@
     },
     {
       "file": "scripts/ci_smoke.py",
-      "bytes": 1821,
-      "SHA256": "9f6a3ce22ef48ca6a89d56164c450f6c07e9c84ab7f9e0653c6d197a6851a915"
+      "bytes": 1865,
+      "SHA256": "5373d6cba929bbc8d2d9096deceaf0c9e4a14c6dbcacfd86f914caa25571fd3e"
+    },
+    {
+      "file": "scripts/download_checkpoint.py",
+      "bytes": 1684,
+      "SHA256": "b513a16761f0dd3639f2cefafe1d77a1a94348840131255da67832a04586c2d6"
     },
     {
       "file": "scripts/evaluate.py",
@@ -275,6 +295,11 @@
       "file": "scripts/verify_environment.py",
       "bytes": 926,
       "SHA256": "e15bd21f00a22e9f273efa466c85dc2d5bb1b41f4d996711c5e0b6747ff80944"
+    },
+    {
+      "file": "scripts/verify_model.py",
+      "bytes": 1753,
+      "SHA256": "b0ad3944b2b42ddfe4b1a31d770f40ea370e3b11ab7f0e1d6086c99ee315a006"
     },
     {
       "file": "scripts/verify_predictions.py",
@@ -363,8 +388,8 @@
     },
     {
       "file": "tests/test_repository_contract.py",
-      "bytes": 1761,
-      "SHA256": "98b20c83d810f1ed7594764a336a1dfce6160e9e7d1285454710100f1494f8b8"
+      "bytes": 1801,
+      "SHA256": "a25dfe76d3fbfcba201176087c2b8c696f38b10c1158844eb42d2ebe8c59d4ab"
     },
     {
       "file": "tests/test_reproduction.py",

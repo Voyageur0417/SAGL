@@ -1,6 +1,6 @@
 # SAGL: Sparse Appearance-Guided Global Linking for Sports Multi-Object Tracking
 
-**Local review candidate — `PRIVATE_REVIEW_REQUIRED`.** Project-code licensing and model redistribution are not yet approved. This directory has not been published to GitHub; `LICENSE` is a pending-status notice, not an open-source licence.
+Research code and the original Sports-ReID checkpoint are provided with [release v1.0.0](https://github.com/Voyageur0417/SAGL/releases/tag/v1.0.0). The repository maintainer has authorised public publication. No project-wide software/model reuse licence has been selected; public availability is distinct from a blanket open-source licence (see [LICENSE](LICENSE)).
 
 ## Overview
 
@@ -81,7 +81,14 @@ The required model is **Sports-ReID OSNet-x1.0**, producing 512-dimensional embe
 - Size: 30,535,806 bytes
 - SHA256: `0634e9782792d27ff066e3c20f6c00a93d7bb662c51a4976e39eae2bf36507f9`
 
-**The model is not bundled and no verified public download URL exists.** Obtain the exact file from its rights holders subject to permission. Source-code MIT licences for third-party implementations do not establish weight redistribution rights. Another OSNet model or a newly trained model is not an exact-reproduction substitute. See [MODEL_RELEASE_PLAN.md](MODEL_RELEASE_PLAN.md) and [checkpoint.md](docs/checkpoint.md).
+The exact original checkpoint is hosted as a separate [GitHub Release attachment](https://github.com/Voyageur0417/SAGL/releases/download/v1.0.0/clean_sportsmot_train_only_osnet_x1_0_epoch60.pth); it is not committed to Git. Download and verify it from the repository root:
+
+```bash
+python scripts/download_checkpoint.py --output checkpoint/clean_sportsmot_train_only_osnet_x1_0_epoch60.pth
+python scripts/verify_model.py --checkpoint checkpoint/clean_sportsmot_train_only_osnet_x1_0_epoch60.pth --device cuda:0
+```
+
+The downloader checks both the original size and SHA256. The loader reconstructs OSNet-x1.0 and verifies encoder parameters; the extraction entry uses the same loader. The original checkpoint includes the training classifier, optimizer and scheduler state. No encoder-only replacement is needed for v1.0.0. Use this trusted, verified file; another OSNet model is not an exact-reproduction substitute. Model provenance and publication details are recorded in [MODEL_RELEASE_PLAN.md](MODEL_RELEASE_PLAN.md) and [checkpoint.md](docs/checkpoint.md).
 
 ## Feature extraction
 
@@ -110,11 +117,23 @@ python scripts/evaluate.py --config configs/sportsmot_ocsort.yaml --gt-root data
 
 GT is read only by this separate evaluation entry. The unchanged, licensed TrackEval snapshot saves raw metrics and combined HOTA, DetA, AssA, IDF1, MOTA, IDSW, FP and FN. Sequence mapping, frame indexing and dataset-specific preprocessing must match the original protocol. Local validation metrics are distinct from official hidden-test results; the package does not recompute official SportsMOT test HOTA locally. See [evaluation.md](docs/evaluation.md).
 
+## Results
+
+The following SportsMOT official-test HOTA scores were obtained previously and reported in the manuscript. They are **not** newly evaluated by this release task.
+
+| Method | Official-test HOTA |
+|---|---:|
+| OC-SORT carrier | 68.24 |
+| Penalized Matching | 75.77 |
+| SAGL | 75.80 |
+
+These official results are separate from local validation and the representative-sequence reproduction checks below.
+
 ## Reproducibility and scope
 
 The previously validated package covered four representative complete sequence/carrier cases: 42,039 regenerated embeddings, plus exact mapping checks for 1,462,753 feature keys across 155 sequence/carrier entries. Final predictions were identical on the four representative cases despite numerical feature differences. The SoccerNet sample changed a small number of candidate and qualified edges; intermediate graphs and features are **not** claimed to be bit-exact. Ten local TrackEval runs agreed with the corresponding frozen sequence results. These are not four full-setting reruns or four combined-setting HOTA measurements.
 
-This repository is independently reinstalled and exercised before delivery; the exact current test scope is in `manifests/github_validation.json`. Full regeneration for all155 entries, all-sequence fresh-feature equivalence, complete CPU fresh sequence extraction and other operating systems remain unverified. GitHub Actions covers only public unit/interface/configuration/synthetic tests, not real data, weights or paper performance. Its job commands are run locally; hosted Actions execution begins only after the authors upload the repository.
+This repository has been independently installed and exercised; the exact current test scope is in `manifests/github_validation.json`. Full regeneration for all155 entries, all-sequence fresh-feature equivalence, complete CPU fresh sequence extraction and other operating systems remain unverified. GitHub Actions covers only public unit/interface/configuration/synthetic tests, not real data, weights or paper performance. Its job commands have also been exercised locally; hosted Actions status is separate from the real-data validation.
 
 To compare legal reference artifacts after inference:
 
@@ -136,11 +155,11 @@ Publication metadata has not been assigned. Cite the manuscript without inventin
 }
 ```
 
-`CITATION.cff` provides the same author order. Software metadata uses version1.0.0; the local review tag does not establish a public release or a series of algorithm versions.
+`CITATION.cff` provides the same author order. The software release is v1.0.0; software versioning does not introduce a series of scientific method variants.
 
 ## License and availability
 
-**`PRIVATE_REVIEW_REQUIRED`: the authors/right holders must approve the project-code licence before public redistribution.** The current `LICENSE` file is a status notice. It must not be presented as MIT, Apache-2.0 or another granted licence. Model permission is a separate unresolved matter. See [CODE_LICENSE_DECISION.md](CODE_LICENSE_DECISION.md), [MODEL_RELEASE_PLAN.md](MODEL_RELEASE_PLAN.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The repository maintainer has authorised public publication of the research code and the original trained checkpoint. No MIT, Apache-2.0 or other project-wide reuse licence has been selected for SAGL-owned material. See [LICENSE](LICENSE) and [CODE_LICENSE_DECISION.md](CODE_LICENSE_DECISION.md) for that distinction. OSNet and TrackEval retain their original MIT notices; those notices do not relicense SAGL-owned code, trained weights or benchmark media. Data must still be acquired separately under the providers' terms.
 
 ## Acknowledgments
 

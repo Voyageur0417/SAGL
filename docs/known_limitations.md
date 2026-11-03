@@ -1,7 +1,7 @@
 # Known limitations
 
-- The checkpoint is confirmed and executable but is not publicly deposited; its redistribution permission and a verified acquisition URL remain unresolved. Recipients without the exact model cannot reproduce the paper merely from this archive.
-- Rights holders must select/confirm the SAGL-owned code licence before public redistribution. Third-party code notices are included separately and do not grant rights to benchmark imagery or weights.
+- The original checkpoint is a separate v1.0.0 Release attachment. Dataset media and exact carrier inputs remain external requirements; code and weights alone do not supply those assets.
+- Public publication was authorised by the maintainer. No project-wide software/model reuse licence was selected; do not infer unrestricted reuse from availability or from the MIT licences of third-party implementations.
 - Historical feature values are not reproduced bit-for-bit. Crop/input and encoder-loading controls were run; the remaining discrepancy is not uniquely explained by one floating-point/backend factor.
 - Four representative complete sequence/carrier cases (three underlying media sources) were freshly regenerated. All 155 development sequence/carrier key mappings were checked, but the other sequences were not freshly extracted or re-evaluated in this release task.
 - Fresh features can change candidate retrieval, qualification order or prototype deduplication even when final links and predictions agree. Inspect the documented intermediate differences; final equivalence is sample-specific.

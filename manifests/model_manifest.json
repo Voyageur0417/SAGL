@@ -47,12 +47,18 @@
   "optimizer_in_original": true,
   "scheduler_in_original": true,
   "original_checkpoint_filename": "clean_sportsmot_train_only_osnet_x1_0_epoch60.pth",
-  "public_download_URL": null,
-  "release_status": "RELEASE_PERMISSION_REVIEW_REQUIRED",
-  "code_license": "OSNet: MIT, notice in vendor/OSNET_MIT_LICENSE.txt; SAGL license choice pending author approval",
+  "public_download_URL": "https://github.com/Voyageur0417/SAGL/releases/download/v1.0.0/clean_sportsmot_train_only_osnet_x1_0_epoch60.pth",
+  "release_status": "MAINTAINER_AUTHORISED_PUBLICATION",
+  "code_license": "OSNet/TrackEval MIT notices retained; no SAGL-wide software/model reuse licence selected",
   "training_YAML_SHA256_verified": "0e17707fcc539691a61790649d25a6fb0c6ef33b2f1cf7a2a9066b198cf5b3dc",
   "training_crop_manifest_SHA256_verified": "f11878cf01dfe31172fc8cc6e91c69bf3a10c61eb83687f6703509c9aabd75f3",
   "training_crops_verified": 312579,
   "training_namespaces_verified": 639,
-  "training_sequences_verified": 45
+  "training_sequences_verified": 45,
+  "release_URL": "https://github.com/Voyageur0417/SAGL/releases/tag/v1.0.0",
+  "release_tag": "v1.0.0",
+  "model_in_Git_history": false,
+  "model_publication_authorisation": "Explicit repository-maintainer instruction in current release task",
+  "external_clearance_claimed": false,
+  "project_model_reuse_licence_selected": false
 }

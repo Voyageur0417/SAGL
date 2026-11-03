@@ -1,14 +1,14 @@
 # License and asset release review
 
-Local preparation only; no public upload has taken place. This is an asset-by-asset review, not a legal clearance.
+The maintainer authorised public source/model publication for v1.0.0. This records that instruction and component boundaries; it is not an invented external legal clearance.
 
 | Component | Evidence / access route | Candidate package decision |
 |---|---|---|
-| SAGL-owned frozen source and wrappers | No project licence in the frozen repository | Rights-holder confirmation required. LICENSE states the unresolved status; no open-source grant is invented. |
+| SAGL-owned frozen source and wrappers | No project licence in the frozen repository | Public publication authorised by the maintainer; no project-wide reuse licence selected. LICENSE records that distinction. |
 | OSNet source | Official deep-person-reid MIT licence; source SHA and notice retained | Minimal osnet.py and MIT notice included. This does not automatically license weights. |
 | TrackEval source | Original experiment snapshot; MIT notice by Jonathon Luiten; full source hash manifest | Included unchanged with notice. Upstream revision was not recorded; content hashes identify this exact snapshot. |
 | NumPy, SciPy, PyTorch, OpenCV, Pillow, PyYAML and transitive packages | Installed wheel metadata/individual terms, recorded separately | Dependencies are installed by the recipient, not redistributed as binaries in this archive. |
-| Final Sports-ReID checkpoint | Project training on SportsMOT train from ImageNet initialization; confirmed SHA | RELEASE_PERMISSION_REVIEW_REQUIRED. Not bundled; no public download URL has been established. |
+| Final Sports-ReID checkpoint | Project training on SportsMOT train from ImageNet initialization; confirmed SHA | Maintainer-authorised v1.0.0 Release attachment; exact original SHA retained; no automatic third-party MIT coverage asserted. |
 | ImageNet initialization weights | Local hash and declared training provenance | Not bundled; no inference that a source-code MIT licence settles pretrained-weight terms. |
 | SportsMOT videos, frames, GT and crops | Official repository specifies CC BY-NC4.0 and written permission before dataset redistribution | Do not bundle. Recipient obtains the dataset from its provider. |
 | SoccerNet media/annotations | Official FAQ discusses copyrighted videos, NDA preventing redistribution and noncommercial research | Do not bundle. Recipient follows official acquisition terms. |
@@ -18,4 +18,4 @@ Local preparation only; no public upload has taken place. This is an asset-by-as
 
 Primary sources: [SportsMOT terms](https://github.com/MCG-NJU/SportsMOT#terms), [OSNet licence](https://github.com/KaiyangZhou/deep-person-reid/blob/master/LICENSE), [TrackEval licence](https://github.com/JonathonLuiten/TrackEval/blob/master/LICENSE), [SoccerNet FAQ](https://www.soccer-net.org/faq), [TeamTrack](https://github.com/AtomScott/TeamTrack).
 
-Before a public release, the authors must confirm a licence for their code and obtain/confirm the permissions governing model redistribution. Until then, this is a runnable local release candidate for recipients who already lawfully hold the model and inputs. The package does not promise that every researcher can presently download those assets.
+Source and model publication was authorised in this release task. No institution/data-provider agreement or general reuse licence is invented. Benchmark media, raw GT, real carriers/caches/predictions remain outside the source repository.

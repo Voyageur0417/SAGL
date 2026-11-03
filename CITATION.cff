@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the SAGL manuscript. This software is a private-review candidate, not a published release."
+message: "Please cite the SAGL manuscript when referring to this research software."
 title: "SAGL: Sparse Appearance-Guided Global Linking for Sports Multi-Object Tracking"
 type: software
 version: 1.0.0
+repository-code: "https://github.com/Voyageur0417/SAGL"
+url: "https://github.com/Voyageur0417/SAGL/releases/tag/v1.0.0"
 authors:
   - family-names: Hu
     given-names: Songming

@@ -1,5 +1,5 @@
 {
-  "release_status": "PRIVATE_REVIEW_REQUIRED",
+  "release_status": "MAINTAINER_AUTHORISED_PUBLIC_RESEARCH_RELEASE",
   "technical_test_status": "PASS_WITH_LIMITATIONS",
   "input_reproduction_ZIP_SHA256": "a769c3c3867e7bddfb6f6f9a5f1696ff3021c9a23c6e5f5b7468c888b08c0c51",
   "repository_test": {
@@ -8,7 +8,7 @@
     "new_GPU_Conda_environment_installed": true,
     "unit_tests_per_environment": 18,
     "public_only_smoke": true,
-    "CLI_help_count_per_environment": 5,
+    "CLI_help_count_per_environment": 7,
     "configuration_profiles_checked": 4,
     "real_complete_sequence": "v_00HRwkvvjtQ_c001",
     "fresh_embeddings": 11075,
@@ -35,5 +35,7 @@
     "fresh_minus_cached_HOTA": 0.0,
     "hosted_GitHub_Actions_run": "NOT_RUN"
   },
-  "scope_note": "This repository test covers one representative complete sequence. Prior validated four-case evidence is retained separately; this is not a full-setting combined rerun or official-test recomputation. No checkpoint or raw benchmark data is included."
+  "scope_note": "This repository test covers one representative complete sequence. Prior validated four-case evidence is retained separately; this is not a full-setting combined rerun or official-test recomputation. No checkpoint or raw benchmark data is included.",
+  "project_reuse_licence_selected": false,
+  "public_release_validation": "public_release_validation.json"
 }

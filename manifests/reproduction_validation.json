@@ -183,6 +183,8 @@
     "reference_byte_equal": true
   },
   "full_CPU_fresh_sequence": "NOT_COMPLETED",
-  "public_model_URL": null,
-  "licence_confirmation_required": true
+  "public_model_URL": "https://github.com/Voyageur0417/SAGL/releases/download/v1.0.0/clean_sportsmot_train_only_osnet_x1_0_epoch60.pth",
+  "licence_confirmation_required": false,
+  "publication_authorised_by_maintainer": true,
+  "reuse_licence_selection_pending": true
 }

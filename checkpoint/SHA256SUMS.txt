@@ -1,0 +1,1 @@
+0634e9782792d27ff066e3c20f6c00a93d7bb662c51a4976e39eae2bf36507f9  clean_sportsmot_train_only_osnet_x1_0_epoch60.pth

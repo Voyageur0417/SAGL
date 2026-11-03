@@ -18,5 +18,5 @@ class RepositoryContracts(unittest.TestCase):
    s=(ROOT/'vendor'/name).read_text();self.assertIn('MIT License',s);self.assertIn(author,s)
  def test_citation_has_no_invented_publication_identifiers(self):
   import yaml
-  c=yaml.safe_load((ROOT/'CITATION.cff').read_text());self.assertEqual([a['family-names'] for a in c['authors']],['Hu','Han','Su','Hao']);self.assertNotIn('doi',c);self.assertNotIn('repository-code',c)
+  c=yaml.safe_load((ROOT/'CITATION.cff').read_text());self.assertEqual([a['family-names'] for a in c['authors']],['Hu','Han','Su','Hao']);self.assertNotIn('doi',c);self.assertEqual(c['repository-code'],'https://github.com/Voyageur0417/SAGL')
 if __name__=='__main__':unittest.main()

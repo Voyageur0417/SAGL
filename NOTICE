@@ -1,7 +1,7 @@
-SAGL private-review candidate. No public redistribution approval is established.
+SAGL v1.0.0 research artifact.
 
-The project-wide licence decision is pending; LICENSE is a status notice only.
+Public publication of source and original project checkpoint was authorised by the repository maintainer. No project-wide software/model reuse licence has been selected; see LICENSE.
 Research attribution in CITATION.cff does not determine legal code ownership.
 OSNet source copyright (c) 2018 Kaiyang Zhou, MIT; see vendor/OSNET_MIT_LICENSE.txt.
 TrackEval source copyright (c) 2020 Jonathon Luiten, MIT; see vendor/TRACKEVAL_LICENSE.txt.
-Original notices remain applicable to vendored code. No benchmark media or model weights are included.
+Original notices remain applicable. No benchmark media is included. The original Sports-ReID checkpoint is hosted separately as a Release asset, not in Git history.
