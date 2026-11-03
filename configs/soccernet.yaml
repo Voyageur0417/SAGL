@@ -1,0 +1,67 @@
+schema_version: 1
+dataset_profile: soccernet
+carrier_root: ../data/soccernet/carrier
+minimum_observations: 2
+checkpoint: ../checkpoint/clean_sportsmot_train_only_osnet_x1_0_epoch60.pth
+checkpoint_sha256: 0634e9782792d27ff066e3c20f6c00a93d7bb662c51a4976e39eae2bf36507f9
+sequences:
+- name: SNMOT-151
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-151/img1
+- name: SNMOT-152
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-152/img1
+- name: SNMOT-153
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-153/img1
+- name: SNMOT-154
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-154/img1
+- name: SNMOT-155
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-155/img1
+- name: SNMOT-156
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-156/img1
+- name: SNMOT-157
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-157/img1
+- name: SNMOT-158
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-158/img1
+- name: SNMOT-159
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-159/img1
+- name: SNMOT-160
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-160/img1
+- name: SNMOT-161
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-161/img1
+- name: SNMOT-162
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-162/img1
+- name: SNMOT-163
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-163/img1
+- name: SNMOT-164
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-164/img1
+- name: SNMOT-165
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-165/img1
+- name: SNMOT-166
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-166/img1
+- name: SNMOT-167
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-167/img1
+- name: SNMOT-168
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-168/img1
+- name: SNMOT-169
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-169/img1
+- name: SNMOT-170
+  fps: 25.0
+  images: ../data/soccernet/SNMOT-170/img1

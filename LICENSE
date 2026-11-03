@@ -1,0 +1,5 @@
+SAGL project-code release licence: pending rights-holder confirmation.
+
+The frozen repository did not contain a project-wide LICENSE. This prepared local candidate does not invent a licence grant on behalf of the authors. Obtain the authors' confirmed licence before public redistribution of SAGL-owned code. This file is a status notice, not an open-source licence.
+
+Third-party components retain their own terms: OSNet source is under the MIT licence in vendor/OSNET_MIT_LICENSE.txt; TrackEval is under the MIT licence in vendor/TRACKEVAL_LICENSE.txt. These grants do not establish permission to redistribute trained weights, benchmark imagery or derived benchmark assets. No such assets are bundled.

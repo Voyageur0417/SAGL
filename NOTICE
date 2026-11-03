@@ -1,0 +1,7 @@
+SAGL private-review candidate. No public redistribution approval is established.
+
+The project-wide licence decision is pending; LICENSE is a status notice only.
+Research attribution in CITATION.cff does not determine legal code ownership.
+OSNet source copyright (c) 2018 Kaiyang Zhou, MIT; see vendor/OSNET_MIT_LICENSE.txt.
+TrackEval source copyright (c) 2020 Jonathon Luiten, MIT; see vendor/TRACKEVAL_LICENSE.txt.
+Original notices remain applicable to vendored code. No benchmark media or model weights are included.

@@ -1,0 +1,575 @@
+{
+  "scope": "GitHub preparation files except this checksum manifest itself; project licence pending",
+  "files": [
+    {
+      "file": ".github/workflows/tests.yml",
+      "bytes": 1030,
+      "SHA256": "f327049c2350512901fda68c88beb3a3b71db8de84422e06194426ca48ef172f"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 346,
+      "SHA256": "50efa592f71b6cba30ca5f2791d5923515aa8cab49684c486b7ede58aefbe0f8"
+    },
+    {
+      "file": "CITATION.cff",
+      "bytes": 863,
+      "SHA256": "1e46af84341478952f6ca4f1bf8fdb9b8ce4dc02e5d3c211ff9f99c676d06455"
+    },
+    {
+      "file": "CODE_LICENSE_DECISION.md",
+      "bytes": 2612,
+      "SHA256": "e3f6b1620be1132df23b9c7982c2c85cd0081f5380d8f0bbc2ddaa7ae74e5c1d"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 703,
+      "SHA256": "93b048078989fbccfdee7c6b130998d42667a928428309f695cdce1e8dfb8e16"
+    },
+    {
+      "file": "LICENSE_AND_ASSET_RELEASE_REVIEW.md",
+      "bytes": 3307,
+      "SHA256": "0003b773a11e0d00fd1af0e36871fab3ca652abd0ead71278cf2776b538e54b7"
+    },
+    {
+      "file": "LICENSE_REVIEW.md",
+      "bytes": 129,
+      "SHA256": "734d41d74fa3d28fd12790699f4a99438a5b0ab3d343c4584f673b0809d1e210"
+    },
+    {
+      "file": "MODEL_RELEASE_PLAN.md",
+      "bytes": 2121,
+      "SHA256": "425a7097d3f146dbf3230fae0dc0de6b13fc2be500b9b5539e5dde5e8e7494bb"
+    },
+    {
+      "file": "NOTICE",
+      "bytes": 519,
+      "SHA256": "bd7fb43587cb3f8d75bf5c228714327d023a3e04bbf6835252a95007c52b420b"
+    },
+    {
+      "file": "README.md",
+      "bytes": 11680,
+      "SHA256": "3ff94da126df5ca1b52cb5ac907abe6598d0880ee083e7a841dd23e1c76869d9"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1858,
+      "SHA256": "b8b34c69245bb149fbc669e9c4ae2df798ce2c025ff7d4ebfa462d1883ae51be"
+    },
+    {
+      "file": "checkpoint/CHECKPOINT_INSTRUCTIONS.md",
+      "bytes": 1188,
+      "SHA256": "93e8f78cf0cec98a2592879a1805cf69f33f24ada80f279079b5574887f90f58"
+    },
+    {
+      "file": "configs/soccernet.yaml",
+      "bytes": 1740,
+      "SHA256": "4cb6ceeae2c2b970ab3c100a3996acca2a3ef1aeb7f2e87c0cf2619b0cf2596e"
+    },
+    {
+      "file": "configs/sportsmot_diffmot.yaml",
+      "bytes": 4283,
+      "SHA256": "e2c4f3db1ca3d621c0378f1cbfa92d6d3fcdb443f63dda9a1b41d20dcedc5773"
+    },
+    {
+      "file": "configs/sportsmot_ocsort.yaml",
+      "bytes": 4697,
+      "SHA256": "e9a3b7c87fe226903dc2bf3f394bde8b28aa052135d3f62aab4b49973456aa32"
+    },
+    {
+      "file": "configs/teamtrack.yaml",
+      "bytes": 6222,
+      "SHA256": "8e7d16d3463c76680133c16b9e8a1254da78478852d97847f8fb32be8d5bf00b"
+    },
+    {
+      "file": "docs/carrier_input_format.md",
+      "bytes": 1428,
+      "SHA256": "99721c2434e79ddecf283f38d35762d1c28d218edc41b8149123fa2dfc047ab0"
+    },
+    {
+      "file": "docs/checkpoint.md",
+      "bytes": 1188,
+      "SHA256": "93e8f78cf0cec98a2592879a1805cf69f33f24ada80f279079b5574887f90f58"
+    },
+    {
+      "file": "docs/data_preparation.md",
+      "bytes": 3251,
+      "SHA256": "4c5f5c242a952b111bc01140c9ead3e4bcdba4c048ebbd8d82c02dce874dd729"
+    },
+    {
+      "file": "docs/datasets.md",
+      "bytes": 3251,
+      "SHA256": "4c5f5c242a952b111bc01140c9ead3e4bcdba4c048ebbd8d82c02dce874dd729"
+    },
+    {
+      "file": "docs/evaluation.md",
+      "bytes": 2175,
+      "SHA256": "32a86b5b8a88c0ab2861acde881c57b0c9930584c727920a738314a28fd61363"
+    },
+    {
+      "file": "docs/feature_cache_format.md",
+      "bytes": 2156,
+      "SHA256": "39c6f7516af27653ad457cc52ca1f9c28559c64db9c2f68e96e568a737ac7acd"
+    },
+    {
+      "file": "docs/feature_extraction.md",
+      "bytes": 1379,
+      "SHA256": "27d4e8f1a8af3b7ccb38c6dbfed91a222be04e9a67837ef7ff23b11eb8b03ca6"
+    },
+    {
+      "file": "docs/inference.md",
+      "bytes": 1269,
+      "SHA256": "a452ffb5ce29193038ffd8251d1d4795cd2d05b9816ef5be23a3b807dd348cf3"
+    },
+    {
+      "file": "docs/installation.md",
+      "bytes": 1469,
+      "SHA256": "8f948d23299a81bbba577e57308f704d2bffa5db58c73f19ca4dce1160586476"
+    },
+    {
+      "file": "docs/known_limitations.md",
+      "bytes": 1980,
+      "SHA256": "82f0e6d0e92137260fdd8aea023525e304a936de20509788f9a3848f5d5095e8"
+    },
+    {
+      "file": "docs/provenance.md",
+      "bytes": 1244,
+      "SHA256": "fd9617724ee35a8ddec091c7d871c779405b663919ec870b97f0cd3a38d1881f"
+    },
+    {
+      "file": "docs/release_scope.md",
+      "bytes": 983,
+      "SHA256": "96070aadaed1ba58d1d4259aa4fa3f31419cea3b68d8f023749bda04b4c49345"
+    },
+    {
+      "file": "docs/reproduction.md",
+      "bytes": 2363,
+      "SHA256": "b9913c0d28d22f58aeec1bb4cbbfebaeeb79b5c821654a45433b971e9870ad52"
+    },
+    {
+      "file": "docs/reproduction_protocol.md",
+      "bytes": 1504,
+      "SHA256": "20086959c0633593e419c3367b9daf2bc0f10e9f1350245878ec5f2673326114"
+    },
+    {
+      "file": "docs/reproduction_steps.md",
+      "bytes": 189,
+      "SHA256": "0c991f171843f51fac2a14838c1e7e9354b903163f172b580feefccd9b4e8dd8"
+    },
+    {
+      "file": "environment.yml",
+      "bytes": 265,
+      "SHA256": "e157fcc902c0cf13c2b949c42c1e2bb526367e2cdd3f5cc0a8f7e13d259fa1d1"
+    },
+    {
+      "file": "environments/linux-cuda118-explicit.txt",
+      "bytes": 4950,
+      "SHA256": "f8a8e8743218de9d6a72e8f7c1b95cada65f9dec2ad81da3feafe6de41002ff9"
+    },
+    {
+      "file": "examples/example_input_format.md",
+      "bytes": 453,
+      "SHA256": "ebe387b0566a6d9aaf404bc6f57562c1db5e9bef131aaa7d9ba8ec910b68b480"
+    },
+    {
+      "file": "examples/make_synthetic_example.py",
+      "bytes": 963,
+      "SHA256": "84d1a4b6b82088b893b116ccbb17936d2496464350967e97a64409ca4cdb2db4"
+    },
+    {
+      "file": "manifests/checkpoint_manifest.json",
+      "bytes": 1966,
+      "SHA256": "116e0a761eaa865f4dfacccfebe97abc3e8bfeb056eb5bec00a88173fb52af65"
+    },
+    {
+      "file": "manifests/dependency_licences.json",
+      "bytes": 6851,
+      "SHA256": "88d8c957e5c893cc806d9ac62bb202deaeeda91903dec7c2081e6f360a668d5a"
+    },
+    {
+      "file": "manifests/environment_manifest.json",
+      "bytes": 1978,
+      "SHA256": "4d2ef3956eb6d7bab07accb44aa46f0e37961c1fbf1e587af04d5d484e05dc51"
+    },
+    {
+      "file": "manifests/experiment_manifest.json",
+      "bytes": 39188,
+      "SHA256": "7546405431ca9d2f1e9e7a17853950a2b7b0ece0bdf087590f07796d8055d68a"
+    },
+    {
+      "file": "manifests/frozen_source_manifest.json",
+      "bytes": 4128,
+      "SHA256": "d1d64b02094e84abc4aacdb611b350d3e2aab096e5b6416f9e3fc12f9e1ba73b"
+    },
+    {
+      "file": "manifests/github_validation.json",
+      "bytes": 1587,
+      "SHA256": "6d5673a03dc5e21b69d4cc88888705eac280fd0617666d90b379b154b32b79e0"
+    },
+    {
+      "file": "manifests/license_source_manifest.json",
+      "bytes": 1346,
+      "SHA256": "485d7881af2e4237d71b11ff82e0878d6facf940aadd502b66fabc0f2dae85af"
+    },
+    {
+      "file": "manifests/model_manifest.json",
+      "bytes": 1804,
+      "SHA256": "04623d593ffd2e6a1493d10f9ceb6e43f23a6a9251490cdc5d9498f925f8fb5b"
+    },
+    {
+      "file": "manifests/prediction_manifest.json",
+      "bytes": 3886,
+      "SHA256": "4e93408e4bb11aeab6cc40de6a0af450351ff8cd0b29fdb1498e48200bef11c9"
+    },
+    {
+      "file": "manifests/reproduction_validation.json",
+      "bytes": 6236,
+      "SHA256": "3474fc550d0ab8c94a0a640415596136ab4828d2052b5fca81984f7740682f74"
+    },
+    {
+      "file": "manifests/trackeval_source_manifest.json",
+      "bytes": 5151,
+      "SHA256": "161dc1715c784bd2a304ed5476848f71238ebc483618a3f7d80ed4c1a2de4846"
+    },
+    {
+      "file": "pyproject.toml",
+      "bytes": 334,
+      "SHA256": "eaca23ae87269173ee32f625a9f90afd091533a3aead6c2579e56eb9ee4a5b52"
+    },
+    {
+      "file": "requirements-ci.txt",
+      "bytes": 65,
+      "SHA256": "618eb8d7eb1d8f3bc1cf12b2ff22c6a09b98adac2bf3ac243f2fc9ddf0672174"
+    },
+    {
+      "file": "requirements-core.txt",
+      "bytes": 42,
+      "SHA256": "ca4901d68a4ffd4f051a3c9651653bff4975f74b72631410cd036106db884513"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 78,
+      "SHA256": "ea6fac87b5149224ca1d8b94381ae1b3dfcc81e32ef0bb6a71f23e718a459160"
+    },
+    {
+      "file": "scripts/ci_smoke.py",
+      "bytes": 1821,
+      "SHA256": "9f6a3ce22ef48ca6a89d56164c450f6c07e9c84ab7f9e0653c6d197a6851a915"
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "bytes": 3376,
+      "SHA256": "4df61b2d2aa7f8bd4ebb46b572e7e022caf780c9e14dff811542d4a059190ca1"
+    },
+    {
+      "file": "scripts/extract_features.py",
+      "bytes": 1169,
+      "SHA256": "3127d6bd80524b2304c3da94cbf32095565da661bac2404481d5af793e4d3863"
+    },
+    {
+      "file": "scripts/run_sagl.py",
+      "bytes": 3902,
+      "SHA256": "d5fee9ba991b1ef440d08a0d14815f88ac75d6beacf59f07b2472a86bb2087dc"
+    },
+    {
+      "file": "scripts/verify_environment.py",
+      "bytes": 926,
+      "SHA256": "e15bd21f00a22e9f273efa466c85dc2d5bb1b41f4d996711c5e0b6747ff80944"
+    },
+    {
+      "file": "scripts/verify_predictions.py",
+      "bytes": 1106,
+      "SHA256": "abae513556c1461c0e5703351e92a57a44117b905f079289584aaec16608ce5d"
+    },
+    {
+      "file": "scripts/verify_reproduction.py",
+      "bytes": 4788,
+      "SHA256": "f23e7ea1b2fc5ec43ca6c3d9f96dea6b8d3e98aea0844dfb6f8c4867d4ca8697"
+    },
+    {
+      "file": "src/sagl/__init__.py",
+      "bytes": 226,
+      "SHA256": "20d3a1ea0adf7c00344a48b7069c5be8bab4406416dd116aabd5bb5f13210280"
+    },
+    {
+      "file": "src/sagl_repro/__init__.py",
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "src/sagl_repro/common.py",
+      "bytes": 1392,
+      "SHA256": "1b0ba314e7f907eecd130c21023297a4ef3e9b3d9d95801fa7b1c42e1a9f6187"
+    },
+    {
+      "file": "src/sagl_repro/features.py",
+      "bytes": 9184,
+      "SHA256": "04b74a6873bcac45b465f1d7d0d0b177ce6b181c61717ba0ef601146cfecaef2"
+    },
+    {
+      "file": "src/sagl_v4/__init__.py",
+      "bytes": 125,
+      "SHA256": "bc8dd1e4224675115b75b282ed93ef2252812fc88b099df1d047c7a7336c4c3a"
+    },
+    {
+      "file": "src/sagl_v4/chain_compatibility.py",
+      "bytes": 1214,
+      "SHA256": "205261b6920ebd89f9a4f174a16a22a31263c87c3c28be23321b2a478ba40310"
+    },
+    {
+      "file": "src/sagl_v4/competition_details.py",
+      "bytes": 2266,
+      "SHA256": "c8ebedab5ac51d9633c01f64335186050d9df06efd2a9d654db72a7018bcab42"
+    },
+    {
+      "file": "src/sagl_v4/core.py",
+      "bytes": 5352,
+      "SHA256": "5d208d0a0b2b0f2f86b11fb33bf254a7bd44f33dc0b23c3997391c1b31a442f4"
+    },
+    {
+      "file": "src/sagl_v4/decoupled.py",
+      "bytes": 2606,
+      "SHA256": "0901ae8be86ef49bd89f3372e13598cbe43ba6f3b42ff9171ffb7d8001509d3d"
+    },
+    {
+      "file": "src/sagl_v4/final_cli.py",
+      "bytes": 1601,
+      "SHA256": "83e31ace01919e0ad6c3945a8e98300109017d41681c272d89af12bf5cb43288"
+    },
+    {
+      "file": "src/sagl_v4/final_frontend.py",
+      "bytes": 5781,
+      "SHA256": "3d40dc58c4c703a1c5b8acf91453891b5439e2b7bd24c1c89b73c954d5b0e853"
+    },
+    {
+      "file": "src/sagl_v4/final_prototypes.py",
+      "bytes": 2753,
+      "SHA256": "7322d54360de28eaa2f8cddd4d75d5dfceb477a2706b4c701dc83bf38dcf8314"
+    },
+    {
+      "file": "src/sagl_v4/fixed_cardinality.py",
+      "bytes": 1902,
+      "SHA256": "ae151b740bed1241aa58716cee115e186b7af0151f78f122519841ab34679636"
+    },
+    {
+      "file": "src/sagl_v4/projection.py",
+      "bytes": 1821,
+      "SHA256": "5f3151a22eb4c36f720e08a82dae60535a13c13a040a909a1139a3b22df17108"
+    },
+    {
+      "file": "src/sagl_v4/quantity.py",
+      "bytes": 729,
+      "SHA256": "e49fce363996cce147c3eb231df636ecba62c089759aec0433f0a3511cbc4602"
+    },
+    {
+      "file": "tests/test_repository_contract.py",
+      "bytes": 1761,
+      "SHA256": "98b20c83d810f1ed7594764a336a1dfce6160e9e7d1285454710100f1494f8b8"
+    },
+    {
+      "file": "tests/test_reproduction.py",
+      "bytes": 4987,
+      "SHA256": "8af191be4071584e505e2f5006a1313bf15b9590f0d6120a9fd87924e6cdddde"
+    },
+    {
+      "file": "vendor/OSNET_MIT_LICENSE.txt",
+      "bytes": 1069,
+      "SHA256": "3ac8ce2a83d170cb1c7c84152e0c1faca1f187794303514383960d2441716247"
+    },
+    {
+      "file": "vendor/TRACKEVAL_LICENSE.txt",
+      "bytes": 1072,
+      "SHA256": "f7e548c5729e464d878dd4abf691e323bbea028a756d08395d88b83e43dd2d86"
+    },
+    {
+      "file": "vendor/__init__.py",
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "vendor/osnet.py",
+      "bytes": 17037,
+      "SHA256": "c7c1c29187d6330f859c91da229271531920464c7011aec13842a086b2263cae"
+    },
+    {
+      "file": "vendor/trackeval/__init__.py",
+      "bytes": 116,
+      "SHA256": "636586f4cc90a0be21e8aff605fb7fe97c089b3c46fafd43745d4c41bedceae3"
+    },
+    {
+      "file": "vendor/trackeval/_timing.py",
+      "bytes": 2323,
+      "SHA256": "62e60638efc675bccc35c7da65158f0f19ce31f332121efe7cc748bd92ad2b30"
+    },
+    {
+      "file": "vendor/trackeval/baselines/__init__.py",
+      "bytes": 110,
+      "SHA256": "dc462eb70779efb26be862da81a0506f43bfc9d3a2b4f72af0d30ef20e56867d"
+    },
+    {
+      "file": "vendor/trackeval/baselines/baseline_utils.py",
+      "bytes": 12727,
+      "SHA256": "31f2a3b5ef023a4fc3e2a9dd184a9d78d3d542f3e99c59f136f140fac0f2a6cc"
+    },
+    {
+      "file": "vendor/trackeval/baselines/non_overlap.py",
+      "bytes": 3330,
+      "SHA256": "eff1313faf25997254f6dfde76992e5570990036d55f4e9d320a14172c7a52a6"
+    },
+    {
+      "file": "vendor/trackeval/baselines/pascal_colormap.py",
+      "bytes": 8723,
+      "SHA256": "64350a3519999aed195c258c888c14943e187554b2ec7ae776288eb259e377a6"
+    },
+    {
+      "file": "vendor/trackeval/baselines/stp.py",
+      "bytes": 5986,
+      "SHA256": "657550c2f23269adbee84e0327b72dc3662525e653daa1382d4eb044100b546e"
+    },
+    {
+      "file": "vendor/trackeval/baselines/thresholder.py",
+      "bytes": 3111,
+      "SHA256": "2c363b9023eaa7156f6c336331079f97f09e3f0b4d9425e6f756daaf8e4a7dfa"
+    },
+    {
+      "file": "vendor/trackeval/baselines/vizualize.py",
+      "bytes": 3130,
+      "SHA256": "2dd6d0b90944337fdf0da898e1fcd4740bc2ecd67825bccc0511e6fea2e85ec0"
+    },
+    {
+      "file": "vendor/trackeval/datasets/__init__.py",
+      "bytes": 365,
+      "SHA256": "f7d565b05a9d5fca167f5b2a69c55fffd830b0ff326e0e0c2971cdce7b9e092a"
+    },
+    {
+      "file": "vendor/trackeval/datasets/_base_dataset.py",
+      "bytes": 17008,
+      "SHA256": "9094b50490b5567ed6f22cac6aa6ec969f4d467d4d28515546e0b875ffe976f5"
+    },
+    {
+      "file": "vendor/trackeval/datasets/bdd100k.py",
+      "bytes": 16593,
+      "SHA256": "184f91a987a2637d3c358c781a3f8a0ea1ea28a5bd360699413db1c0f3199663"
+    },
+    {
+      "file": "vendor/trackeval/datasets/davis.py",
+      "bytes": 14171,
+      "SHA256": "e2eb026df3b4313b15ed24ad94e53dfe8d95ed8411cb25a2dbc2f409eaa8e9d1"
+    },
+    {
+      "file": "vendor/trackeval/datasets/head_tracking_challenge.py",
+      "bytes": 24693,
+      "SHA256": "827b66129df31fa8840a259eea1fc1993e175a11c1a36c1008990b9984515e1d"
+    },
+    {
+      "file": "vendor/trackeval/datasets/kitti_2d_box.py",
+      "bytes": 21561,
+      "SHA256": "d42b3e97c292a18567ca5c5cdb0fcf4523743c9b980606591f7e6e574c7dcba9"
+    },
+    {
+      "file": "vendor/trackeval/datasets/kitti_mots.py",
+      "bytes": 22384,
+      "SHA256": "4a00a7b8d1e2c696f1846669981665ca42c88f6869b9f1b7b061daec3072d3eb"
+    },
+    {
+      "file": "vendor/trackeval/datasets/mot_challenge_2d_box.py",
+      "bytes": 23987,
+      "SHA256": "fb20342267b2f7f7328ab739a928e4c97bb0df7e65e0c2855d4a83ff8ca214a9"
+    },
+    {
+      "file": "vendor/trackeval/datasets/mots_challenge.py",
+      "bytes": 23617,
+      "SHA256": "c53a2d6cd404f1bcc16d2ea2f2d5c65b43fc8e2dc8af1090d7e3ffd98f4c18ca"
+    },
+    {
+      "file": "vendor/trackeval/datasets/rob_mots.py",
+      "bytes": 28129,
+      "SHA256": "e192e8b3bdd59173ee2a4795638eea81d408794053fa53e559bd4d4dbec60748"
+    },
+    {
+      "file": "vendor/trackeval/datasets/rob_mots_classmap.py",
+      "bytes": 1270,
+      "SHA256": "db79031762d5fb55c009999cdb89586a70d11a1deaf2e1948192387872a64d1e"
+    },
+    {
+      "file": "vendor/trackeval/datasets/run_rob_mots.py",
+      "bytes": 5817,
+      "SHA256": "5d1bb96c2bb376b7cb4e00cada1e1ecab3974d6b06fad080f9e1708358a00a4a"
+    },
+    {
+      "file": "vendor/trackeval/datasets/tao.py",
+      "bytes": 29848,
+      "SHA256": "756615ad7a9c96825f311c755e252f71df194a8bab4861964014c86838b484c6"
+    },
+    {
+      "file": "vendor/trackeval/datasets/youtube_vis.py",
+      "bytes": 19630,
+      "SHA256": "12f8b975ab1ee4b0ae61abab2d9ebe822b6380bd9c956656a2f75aa76c1117db"
+    },
+    {
+      "file": "vendor/trackeval/eval.py",
+      "bytes": 11072,
+      "SHA256": "559fe9dbc6c0fff7f8d81ad16f03bc2900f9e8e53f4f49cd4bdf0c24dd34eab5"
+    },
+    {
+      "file": "vendor/trackeval/metrics/__init__.py",
+      "bytes": 212,
+      "SHA256": "5fd5d495814450ecdb45e60cfd6a2b20b79c75a455d1a2ea2171a0df3cc2dc90"
+    },
+    {
+      "file": "vendor/trackeval/metrics/_base_metric.py",
+      "bytes": 5025,
+      "SHA256": "dac8b87bf3801269aa280b1cf91184f483de4f4e5c158bd07a4b1733b1a5722b"
+    },
+    {
+      "file": "vendor/trackeval/metrics/clear.py",
+      "bytes": 9166,
+      "SHA256": "ab3963eac401073fe1b2957c734af1e531368f42fca49627c14422350b2744f0"
+    },
+    {
+      "file": "vendor/trackeval/metrics/count.py",
+      "bytes": 1584,
+      "SHA256": "ffce9a3ed557f164f7a811f0a8cf66f609eec0af822dbc87d8fdaef560032163"
+    },
+    {
+      "file": "vendor/trackeval/metrics/hota.py",
+      "bytes": 10516,
+      "SHA256": "ea6c3be1a1e98aef541e9dcc2319d8872affc61f399ed0c3c3e805c33bea915f"
+    },
+    {
+      "file": "vendor/trackeval/metrics/identity.py",
+      "bytes": 6220,
+      "SHA256": "ac3cd3b9355631684852b159488cb5c6a2e7336914c88f5f03c6b703237836e0"
+    },
+    {
+      "file": "vendor/trackeval/metrics/ideucl.py",
+      "bytes": 5514,
+      "SHA256": "1009ec40533df6fb28ad3397be745394a6ab970b02920e711808cb78b1720eeb"
+    },
+    {
+      "file": "vendor/trackeval/metrics/j_and_f.py",
+      "bytes": 13021,
+      "SHA256": "9872e658209634e5b07cb080c43308073d65fa32003c9285ecbdf2e60898dccc"
+    },
+    {
+      "file": "vendor/trackeval/metrics/track_map.py",
+      "bytes": 20871,
+      "SHA256": "7374066476521d8784dd8ac94e4c4863171cc22e57098a95721bfd905f068540"
+    },
+    {
+      "file": "vendor/trackeval/metrics/vace.py",
+      "bytes": 5881,
+      "SHA256": "13db97a61cc7291e5356c80a0a4f11a88b75a9664a81fc903d6bd41a1cd6ffdc"
+    },
+    {
+      "file": "vendor/trackeval/plotting.py",
+      "bytes": 8400,
+      "SHA256": "6d3ebada977b6990527dab143e0e4a0bbf5f1dd64f46bf214701a64acadba13f"
+    },
+    {
+      "file": "vendor/trackeval/utils.py",
+      "bytes": 5811,
+      "SHA256": "e20e57f0badcd7f9d768c96f244fbefc0fb2b4a9e28808f929f30e11aef6fc19"
+    }
+  ]
+}

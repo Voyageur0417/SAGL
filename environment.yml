@@ -1,0 +1,9 @@
+name: sagl
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r requirements.txt
+# Tested installation is a fresh Python venv, see docs/installation.md.
+# Select a suitable official PyTorch wheel first; no CUDA is required for linking.

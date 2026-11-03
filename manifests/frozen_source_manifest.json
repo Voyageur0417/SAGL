@@ -1,0 +1,101 @@
+[
+  {
+    "file": "src/sagl_v4/final_prototypes.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "f7f8b4d59c21aa845058f583421a9735f54a75415f10207fb22e57db9aa24337",
+    "package_sha256": "7322d54360de28eaa2f8cddd4d75d5dfceb477a2706b4c701dc83bf38dcf8314",
+    "byte_equal": false,
+    "executable_AST_equal": true,
+    "difference": "module docstring path redaction only"
+  },
+  {
+    "file": "src/sagl_v4/__init__.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "bc8dd1e4224675115b75b282ed93ef2252812fc88b099df1d047c7a7336c4c3a",
+    "package_sha256": "bc8dd1e4224675115b75b282ed93ef2252812fc88b099df1d047c7a7336c4c3a",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/quantity.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "e49fce363996cce147c3eb231df636ecba62c089759aec0433f0a3511cbc4602",
+    "package_sha256": "e49fce363996cce147c3eb231df636ecba62c089759aec0433f0a3511cbc4602",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/projection.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "5f3151a22eb4c36f720e08a82dae60535a13c13a040a909a1139a3b22df17108",
+    "package_sha256": "5f3151a22eb4c36f720e08a82dae60535a13c13a040a909a1139a3b22df17108",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/decoupled.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "0901ae8be86ef49bd89f3372e13598cbe43ba6f3b42ff9171ffb7d8001509d3d",
+    "package_sha256": "0901ae8be86ef49bd89f3372e13598cbe43ba6f3b42ff9171ffb7d8001509d3d",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/competition_details.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "c8ebedab5ac51d9633c01f64335186050d9df06efd2a9d654db72a7018bcab42",
+    "package_sha256": "c8ebedab5ac51d9633c01f64335186050d9df06efd2a9d654db72a7018bcab42",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/core.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "5d208d0a0b2b0f2f86b11fb33bf254a7bd44f33dc0b23c3997391c1b31a442f4",
+    "package_sha256": "5d208d0a0b2b0f2f86b11fb33bf254a7bd44f33dc0b23c3997391c1b31a442f4",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/final_cli.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "83e31ace01919e0ad6c3945a8e98300109017d41681c272d89af12bf5cb43288",
+    "package_sha256": "83e31ace01919e0ad6c3945a8e98300109017d41681c272d89af12bf5cb43288",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/fixed_cardinality.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "ae151b740bed1241aa58716cee115e186b7af0151f78f122519841ab34679636",
+    "package_sha256": "ae151b740bed1241aa58716cee115e186b7af0151f78f122519841ab34679636",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/chain_compatibility.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "205261b6920ebd89f9a4f174a16a22a31263c87c3c28be23321b2a478ba40310",
+    "package_sha256": "205261b6920ebd89f9a4f174a16a22a31263c87c3c28be23321b2a478ba40310",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  },
+  {
+    "file": "src/sagl_v4/final_frontend.py",
+    "commit": "f4db30b3a5aefb147867f7e141402a9de30b480b",
+    "frozen_sha256": "3d40dc58c4c703a1c5b8acf91453891b5439e2b7bd24c1c89b73c954d5b0e853",
+    "package_sha256": "3d40dc58c4c703a1c5b8acf91453891b5439e2b7bd24c1c89b73c954d5b0e853",
+    "byte_equal": true,
+    "executable_AST_equal": true,
+    "difference": "none"
+  }
+]

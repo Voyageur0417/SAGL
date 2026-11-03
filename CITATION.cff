@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the SAGL manuscript. This software is a private-review candidate, not a published release."
+title: "SAGL: Sparse Appearance-Guided Global Linking for Sports Multi-Object Tracking"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Hu
+    given-names: Songming
+  - family-names: Han
+    given-names: Bing
+  - family-names: Su
+    given-names: Zhigang
+  - family-names: Hao
+    given-names: Jingtang
+preferred-citation:
+  type: generic
+  title: "SAGL: Sparse Appearance-Guided Global Linking for Sports Multi-Object Tracking"
+  authors:
+    - family-names: Hu
+      given-names: Songming
+    - family-names: Han
+      given-names: Bing
+    - family-names: Su
+      given-names: Zhigang
+    - family-names: Hao
+      given-names: Jingtang
+  notes: "Unpublished manuscript; no DOI, volume, or pages have been assigned."

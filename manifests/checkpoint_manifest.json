@@ -1,0 +1,60 @@
+{
+  "exists": true,
+  "bytes": 30535806,
+  "SHA256": "0634e9782792d27ff066e3c20f6c00a93d7bb662c51a4976e39eae2bf36507f9",
+  "checkpoint_top_keys": [
+    "architecture",
+    "embedding_dim",
+    "classifier_classes",
+    "epoch",
+    "seed",
+    "state_dict",
+    "optimizer",
+    "scheduler",
+    "dataset_manifest_sha256",
+    "identity_mapping_sha256",
+    "training_config_sha256",
+    "git_commit"
+  ],
+  "metadata": {
+    "architecture": "osnet_x1_0",
+    "embedding_dim": 512,
+    "classifier_classes": 639,
+    "epoch": 60,
+    "seed": 42,
+    "dataset_manifest_sha256": "6aefb4615cf71b12a7937ffc4cc100a123b61706960c95c1b21a34803106ba96",
+    "identity_mapping_sha256": null,
+    "training_config_sha256": "0e17707fcc539691a61790649d25a6fb0c6ef33b2f1cf7a2a9066b198cf5b3dc",
+    "git_commit": "89a08f95f3a4f22843808e184779a242120f876f"
+  },
+  "state_tensors": 567,
+  "classifier_shapes": {
+    "classifier.weight": [
+      639,
+      512
+    ],
+    "classifier.bias": [
+      639
+    ]
+  },
+  "strict_loading_success": true,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "output_shape": [
+    1,
+    512
+  ],
+  "optimizer_in_original": true,
+  "scheduler_in_original": true,
+  "original_checkpoint_filename": "clean_sportsmot_train_only_osnet_x1_0_epoch60.pth",
+  "public_download_URL": null,
+  "release_status": "RELEASE_PERMISSION_REVIEW_REQUIRED",
+  "code_license": "OSNet: MIT, notice in vendor/OSNET_MIT_LICENSE.txt; SAGL license choice pending author approval",
+  "training_YAML_SHA256_verified": "0e17707fcc539691a61790649d25a6fb0c6ef33b2f1cf7a2a9066b198cf5b3dc",
+  "training_crop_manifest_SHA256_verified": "f11878cf01dfe31172fc8cc6e91c69bf3a10c61eb83687f6703509c9aabd75f3",
+  "training_crops_verified": 312579,
+  "training_namespaces_verified": 639,
+  "training_sequences_verified": 45,
+  "current_verification": "EVIDENCE/checkpoint_identity.json and numerical_controls.json in the local handoff",
+  "current_run_reuses_original_checkpoint": true
+}

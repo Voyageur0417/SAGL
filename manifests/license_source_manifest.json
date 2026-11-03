@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/MCG-NJU/SportsMOT/main/README.md",
+    "retrieved_UTC": "2026-11-03T02:09:08.720832+00:00",
+    "bytes": 9117,
+    "SHA256": "c45c295f7ec84d4af4cbe7dd5c9791065a02ea27dd9a7425716aedab39d84b22",
+    "status": "FETCHED"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/KaiyangZhou/deep-person-reid/master/LICENSE",
+    "retrieved_UTC": "2026-11-03T02:09:09.377009+00:00",
+    "bytes": 1069,
+    "SHA256": "3ac8ce2a83d170cb1c7c84152e0c1faca1f187794303514383960d2441716247",
+    "status": "FETCHED"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JonathonLuiten/TrackEval/master/LICENSE",
+    "retrieved_UTC": "2026-11-03T02:09:10.083991+00:00",
+    "bytes": 1072,
+    "SHA256": "f7e548c5729e464d878dd4abf691e323bbea028a756d08395d88b83e43dd2d86",
+    "status": "FETCHED"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AtomScott/TeamTrack/main/LICENSE",
+    "retrieved_UTC": "2026-11-03T02:09:10.798230+00:00",
+    "bytes": 1067,
+    "SHA256": "88dd38a9a2a924db96dbf7d171f583a49f99e5c78f8fde76caaeaa8959678050",
+    "status": "FETCHED"
+  },
+  {
+    "url": "https://www.soccer-net.org/faq",
+    "retrieved_UTC": "2026-11-03T02:09:12.222284+00:00",
+    "bytes": 222135,
+    "SHA256": "33b61131019f6053634bca1195d935baaea79cbb8ef24cc3fa34350f8ab5498d",
+    "status": "FETCHED"
+  }
+]
